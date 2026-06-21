@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Newsletter — Victory Square Technologies</title>
+  <meta name="description" content="Join the Victory Square community. Get early access to investment opportunities and stay up to date on news releases and events." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <script>document.documentElement.classList.add('js')</script>
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+  <link rel="icon" href="./assets/img/favicon.svg" type="image/svg+xml" />
+</head>
+<body class="overflow-x-hidden">
+
+  <header data-header data-solid class="fixed inset-x-0 top-0 z-50 transition-all duration-300">
+    <div class="container-vs flex h-20 items-center justify-between">
+      <a href="./index.html" class="flex items-center gap-2.5 text-white" aria-label="Victory Square Technologies home">
+        <img src="./assets/img/logo/vst-mark-gold.png" alt="Victory Square Technologies" class="h-8 w-auto" />
+        <span class="hidden text-[9px] font-semibold uppercase tracking-[0.3em] text-gold-light/80 sm:block">Technologies</span>
+      </a>
+      <nav class="hidden items-center gap-8 lg:flex" aria-label="Primary">
+        <a href="./about.html" class="nav-link">About</a>
+        <a href="./portfolio.html" class="nav-link">Portfolio</a>
+        <a href="./investors.html" class="nav-link">Investors</a>
+        <a href="./news-media.html" class="nav-link">News</a>
+        <a href="./careers.html" class="nav-link">Careers</a>
+        <a href="./contact.html" class="nav-link">Contact</a>
+      </nav>
+      <div class="hidden items-center gap-3 lg:flex">
+        <a href="./investors.html" class="text-sm font-semibold text-white/80 transition hover:text-gold-light">Invest <span aria-hidden="true">&rarr;</span></a>
+        <a href="./newsletter.html" class="btn-gold !py-2.5 !px-5">Get Updates</a>
+      </div>
+      <button data-nav-toggle aria-expanded="false" aria-label="Toggle menu" class="inline-flex h-11 w-11 items-center justify-center rounded-lg text-white lg:hidden"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+    </div>
+    <div data-mobile-nav class="hidden border-t border-white/10 bg-ink-900/95 backdrop-blur-lg lg:hidden">
+      <nav class="container-vs flex flex-col py-4" aria-label="Mobile">
+        <a href="./about.html" class="mobile-link">About</a>
+        <a href="./portfolio.html" class="mobile-link">Portfolio</a>
+        <a href="./investors.html" class="mobile-link">Investors</a>
+        <a href="./news-media.html" class="mobile-link">News &amp; Media</a>
+        <a href="./careers.html" class="mobile-link">Careers</a>
+        <a href="./contact.html" class="mobile-link">Contact</a>
+        <a href="./newsletter.html" class="btn-gold mt-3">Get Updates</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="pt-20">
+    <section class="relative overflow-hidden bg-ink-900 py-20 text-white lg:py-28">
+      <div class="pointer-events-none absolute inset-0" aria-hidden="true"><div class="absolute -left-32 top-0 h-[30rem] w-[30rem] rounded-full bg-gold/15 blur-[120px]"></div><div class="absolute -right-20 bottom-0 h-[24rem] w-[24rem] rounded-full bg-gold/10 blur-[120px]"></div></div>
+      <div class="container-vs relative grid items-center gap-14 lg:grid-cols-2">
+        <div>
+          <span class="eyebrow !text-gold-light reveal">Newsletter</span>
+          <h1 class="reveal mt-5 font-display text-4xl font-semibold leading-[1.08] tracking-tightest sm:text-5xl">Join the Victory Square community.</h1>
+          <p class="reveal mt-6 max-w-md text-lg text-white/70">Get early access to investment opportunities and stay up to date on news releases and events.</p>
+          <ul class="reveal mt-8 space-y-3 text-sm text-white/80">
+            <li class="flex items-center gap-3"><span class="check">✓</span> Early access to investment opportunities</li>
+            <li class="flex items-center gap-3"><span class="check">✓</span> Portfolio company milestones &amp; news</li>
+            <li class="flex items-center gap-3"><span class="check">✓</span> Corporate updates &amp; event invites</li>
+          </ul>
+        </div>
+        <div class="reveal rounded-3xl bg-white p-8 text-ink-900 shadow-lift lg:p-10">
+          <h2 class="font-display text-2xl font-semibold tracking-tightest">Sign up</h2>
+          <form class="mt-6 space-y-5" onsubmit="return false;">
+            <div class="grid gap-5 sm:grid-cols-2">
+              <div><label for="fn" class="form-label">First name</label><input id="fn" type="text" class="form-input" required /></div>
+              <div><label for="ln" class="form-label">Last name</label><input id="ln" type="text" class="form-input" required /></div>
+            </div>
+            <div><label for="em" class="form-label">Email address</label><input id="em" type="email" class="form-input" required /></div>
+            <button type="submit" class="btn-gold w-full">Subscribe</button>
+            <p class="text-xs leading-relaxed text-ink-500">By clicking subscribe, you consent to our <a href="./privacy-policy.html" class="link-gold">privacy policy</a> and allow Victory Square Technologies to store and process your information to provide the content requested. You may unsubscribe at any time.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-ink-900 pt-16 pb-8 text-white">
+    <div class="container-vs">
+      <div class="grid gap-10 lg:grid-cols-[1.4fr_1fr_1fr_1fr]">
+        <div>
+          <div class="flex items-center gap-2.5 text-white"><img src="./assets/img/logo/vst-mark-gold.png" alt="Victory Square Technologies" class="h-7 w-auto" /></div>
+          <p class="mt-5 max-w-sm text-sm text-white/60">We invest in &amp; help the best entrepreneurs build the tech giants of the next century.</p>
+          <p class="mt-5 text-sm text-white/60">800 – 1500 West Georgia<br />Vancouver, BC V6G 2Z6</p>
+        </div>
+        <div><div class="footer-h">Company</div><ul class="footer-list"><li><a href="./about.html">About</a></li><li><a href="./portfolio.html">Portfolio</a></li><li><a href="./careers.html">Careers</a></li><li><a href="./news-media.html">News &amp; Media</a></li></ul></div>
+        <div><div class="footer-h">Investors</div><ul class="footer-list"><li><a href="./investors.html">Investor Relations</a></li><li><a href="./newsletter.html">Newsletter</a></li><li><a href="./contact.html">Contact</a></li><li><a href="./privacy-policy.html">Privacy Policy</a></li></ul></div>
+        <div><div class="footer-h">Listed on</div><ul class="footer-list"><li>CSE: <span class="text-gold-light">VST</span></li><li>FWB: <span class="text-gold-light">6F6</span></li><li>OTC: <span class="text-gold-light">VSQTF</span></li></ul><a href="./contact.html" class="mt-4 inline-block text-sm text-white/70 hover:text-gold-light">ir@victorysquare.com</a></div>
+      </div>
+      <div class="mt-12 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-6 text-xs text-white/45 sm:flex-row">
+        <p>&copy; <span data-year>2026</span> Victory Square Technologies Inc. All rights reserved.</p>
+        <p>Vancouver, Canada · <a href="./privacy-policy.html" class="hover:text-gold-light">Privacy</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./assets/js/main.js" defer></script>
+</body>
+</html>

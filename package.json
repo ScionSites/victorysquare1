@@ -1,0 +1,16 @@
+{
+  "name": "victory-square-site",
+  "version": "1.0.0",
+  "description": "Victory Square Technologies — static marketing site (Tailwind CSS)",
+  "scripts": {
+    "build": "tailwindcss -i ./assets/css/input.css -o ./assets/css/styles.css --minify",
+    "watch": "tailwindcss -i ./assets/css/input.css -o ./assets/css/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "type": "commonjs",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}

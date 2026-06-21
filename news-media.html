@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>News &amp; Media — Victory Square Technologies</title>
+  <meta name="description" content="Press releases, corporate updates and media coverage from Victory Square Technologies and its portfolio companies." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <script>document.documentElement.classList.add('js')</script>
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+  <link rel="icon" href="./assets/img/favicon.svg" type="image/svg+xml" />
+</head>
+<body class="overflow-x-hidden">
+
+  <header data-header class="fixed inset-x-0 top-0 z-50 transition-all duration-300">
+    <div class="container-vs flex h-20 items-center justify-between">
+      <a href="./index.html" class="flex items-center gap-2.5 text-white" aria-label="Victory Square Technologies home">
+        <img src="./assets/img/logo/vst-mark-gold.png" alt="Victory Square Technologies" class="h-8 w-auto" />
+        <span class="hidden text-[9px] font-semibold uppercase tracking-[0.3em] text-gold-light/80 sm:block">Technologies</span>
+      </a>
+      <nav class="hidden items-center gap-8 lg:flex" aria-label="Primary">
+        <a href="./about.html" class="nav-link">About</a>
+        <a href="./portfolio.html" class="nav-link">Portfolio</a>
+        <a href="./investors.html" class="nav-link">Investors</a>
+        <a href="./news-media.html" class="nav-link text-gold-light">News</a>
+        <a href="./careers.html" class="nav-link">Careers</a>
+        <a href="./contact.html" class="nav-link">Contact</a>
+      </nav>
+      <div class="hidden items-center gap-3 lg:flex">
+        <a href="./investors.html" class="text-sm font-semibold text-white/80 transition hover:text-gold-light">Invest <span aria-hidden="true">&rarr;</span></a>
+        <a href="./newsletter.html" class="btn-gold !py-2.5 !px-5">Get Updates</a>
+      </div>
+      <button data-nav-toggle aria-expanded="false" aria-label="Toggle menu" class="inline-flex h-11 w-11 items-center justify-center rounded-lg text-white lg:hidden"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+    </div>
+    <div data-mobile-nav class="hidden border-t border-white/10 bg-ink-900/95 backdrop-blur-lg lg:hidden">
+      <nav class="container-vs flex flex-col py-4" aria-label="Mobile">
+        <a href="./about.html" class="mobile-link">About</a>
+        <a href="./portfolio.html" class="mobile-link">Portfolio</a>
+        <a href="./investors.html" class="mobile-link">Investors</a>
+        <a href="./news-media.html" class="mobile-link">News &amp; Media</a>
+        <a href="./careers.html" class="mobile-link">Careers</a>
+        <a href="./contact.html" class="mobile-link">Contact</a>
+        <a href="./newsletter.html" class="btn-gold mt-3">Get Updates</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- PAGE HERO -->
+    <section class="relative overflow-hidden bg-ink-900 text-white">
+      <div class="pointer-events-none absolute inset-0" aria-hidden="true"><div class="absolute -right-32 -top-32 h-[28rem] w-[28rem] rounded-full bg-gold/15 blur-[120px]"></div><div class="absolute inset-0 opacity-[0.06]" style="background-image:linear-gradient(#fff 1px,transparent 1px),linear-gradient(90deg,#fff 1px,transparent 1px);background-size:64px 64px;"></div></div>
+      <div class="container-vs relative pt-36 pb-16 lg:pt-44 lg:pb-20">
+        <span class="eyebrow !text-gold-light reveal">News &amp; Media</span>
+        <h1 class="reveal mt-5 max-w-3xl font-display text-4xl font-semibold leading-[1.08] tracking-tightest sm:text-5xl">The latest from Victory Square.</h1>
+        <p class="reveal mt-6 max-w-2xl text-lg text-white/70">Press releases, corporate updates and coverage from across our portfolio.</p>
+      </div>
+    </section>
+
+    <!-- FEATURED -->
+    <section class="bg-paper py-20 lg:py-24">
+      <div class="container-vs">
+        <a href="#" class="group block overflow-hidden rounded-3xl border border-ink-900/[0.08] bg-white shadow-card transition hover:shadow-lift reveal lg:grid lg:grid-cols-2">
+          <div class="flex min-h-[260px] items-center justify-center bg-ink-900 p-10 text-gold-light">
+            <svg width="80" height="80" viewBox="0 0 40 40" fill="none" aria-hidden="true"><rect x="1" y="1" width="38" height="38" rx="9" stroke="currentColor" stroke-opacity=".4" stroke-width="1.5"/><path d="M11 12l6 16 3-8" stroke="#CA8A04" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M29 12l-6 16-3-8" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="p-8 lg:p-10">
+            <div class="flex items-center gap-3 text-xs font-semibold uppercase tracking-wider"><span class="pf-badge">Corporate Update</span><span class="text-ink-400">Dec 9, 2021</span></div>
+            <h2 class="mt-4 font-display text-2xl font-semibold tracking-tightest text-ink-900 group-hover:text-gold-dark">Victory Square Technologies Provides Corporate Update</h2>
+            <p class="mt-3 text-ink-600">A full update on portfolio performance, liquidity events and net asset value across our basket of next-generation tech companies.</p>
+            <span class="mt-5 inline-block text-sm font-semibold text-gold-dark">Read release &rarr;</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- RELEASES GRID -->
+    <section class="pb-24">
+      <div class="container-vs">
+        <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <a href="#" class="news-card reveal"><div class="news-tag">Dividend</div><h3 class="news-title">VST declares a special common share dividend of its interest in Fantasy 360 Technologies Inc.</h3><span class="news-date">2021</span></a>
+          <a href="#" class="news-card reveal"><div class="news-tag">Portfolio</div><h3 class="news-title">GameOn announces a strategic partnership with Polygon Studios to bring NFT games to the masses</h3><span class="news-date">2021</span></a>
+          <a href="#" class="news-card reveal"><div class="news-tag">Investment</div><h3 class="news-title">VST signs a follow-on investment in top-ranked influencer platform Creator.co</h3><span class="news-date">2021</span></a>
+          <a href="#" class="news-card reveal"><div class="news-tag">Portfolio</div><h3 class="news-title">Next Decentrum partners with fintech pioneer DAF to bring Ancient Egypt to life in the metaverse</h3><span class="news-date">2021</span></a>
+          <a href="#" class="news-card reveal"><div class="news-tag">Climate</div><h3 class="news-title">Stardust Solar, a Victory Square renewable energy company, provides a corporate update</h3><span class="news-date">2021</span></a>
+          <a href="#" class="news-card reveal"><div class="news-tag">Financials</div><h3 class="news-title">Victory Square Technologies reports results for the nine months ended September 30, 2021</h3><span class="news-date">2021</span></a>
+          <a href="#" class="news-card reveal"><div class="news-tag">Event</div><h3 class="news-title">VST to present at the Planet MicroCap Showcase virtual event</h3><span class="news-date">Apr 2021</span></a>
+          <a href="#" class="news-card reveal"><div class="news-tag">Event</div><h3 class="news-title">VST to present at the LD 500 virtual conference</h3><span class="news-date">2021</span></a>
+          <a href="#" class="news-card reveal"><div class="news-tag">Media</div><h3 class="news-title">Shafin Diamond Tejani attends 8th Global Family Summit in Dubai</h3><span class="news-date">2021</span></a>
+        </div>
+
+        <div class="mt-12 rounded-2xl bg-gold-50 p-8 text-center reveal">
+          <h3 class="font-display text-xl font-semibold text-ink-900">Never miss an announcement</h3>
+          <p class="mt-2 text-ink-600">Get news releases and corporate updates delivered to your inbox.</p>
+          <a href="./newsletter.html" class="btn-gold mt-5">Subscribe to updates</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-ink-900 pt-16 pb-8 text-white">
+    <div class="container-vs">
+      <div class="grid gap-10 lg:grid-cols-[1.4fr_1fr_1fr_1fr]">
+        <div>
+          <div class="flex items-center gap-2.5 text-white"><img src="./assets/img/logo/vst-mark-gold.png" alt="Victory Square Technologies" class="h-7 w-auto" /></div>
+          <p class="mt-5 max-w-sm text-sm text-white/60">We invest in &amp; help the best entrepreneurs build the tech giants of the next century.</p>
+          <p class="mt-5 text-sm text-white/60">800 – 1500 West Georgia<br />Vancouver, BC V6G 2Z6</p>
+        </div>
+        <div><div class="footer-h">Company</div><ul class="footer-list"><li><a href="./about.html">About</a></li><li><a href="./portfolio.html">Portfolio</a></li><li><a href="./careers.html">Careers</a></li><li><a href="./news-media.html">News &amp; Media</a></li></ul></div>
+        <div><div class="footer-h">Investors</div><ul class="footer-list"><li><a href="./investors.html">Investor Relations</a></li><li><a href="./newsletter.html">Newsletter</a></li><li><a href="./contact.html">Contact</a></li><li><a href="./privacy-policy.html">Privacy Policy</a></li></ul></div>
+        <div><div class="footer-h">Listed on</div><ul class="footer-list"><li>CSE: <span class="text-gold-light">VST</span></li><li>FWB: <span class="text-gold-light">6F6</span></li><li>OTC: <span class="text-gold-light">VSQTF</span></li></ul><a href="./contact.html" class="mt-4 inline-block text-sm text-white/70 hover:text-gold-light">ir@victorysquare.com</a></div>
+      </div>
+      <div class="mt-12 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-6 text-xs text-white/45 sm:flex-row">
+        <p>&copy; <span data-year>2026</span> Victory Square Technologies Inc. All rights reserved.</p>
+        <p>Vancouver, Canada · <a href="./privacy-policy.html" class="hover:text-gold-light">Privacy</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./assets/js/main.js" defer></script>
+</body>
+</html>
